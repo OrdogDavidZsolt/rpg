@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="gamemanager.js"></script>
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>WoW: The Hearthstone online game</h2>
+        <p class="level"></p>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="warrior.png" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Sok élet és erő, de nincs mágikus ereje, nem gyors és nem mozgékony</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="rogue.png" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Közepesen erős, átlagos életerő, mágia nélkül. Gyors és mozgékony, mindig először támad.</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="mage.png" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Full of magic. Nothing else.</p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="hunter.png" alt="hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Közepes statok.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+
+</body>
+
+</html>
